@@ -180,7 +180,13 @@
 
 .login-form-btn:hover {
     cursor: pointer;
-
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 16px;
+    background: -webkit-linear-gradient(90deg, rgba(170,233,32,1) 16%, rgba(2,110,215,0.9864320728291317) 52%, rgba(19,222,11,1) 84%);
+    background: -o-linear-gradient(90deg, rgba(170,233,32,1) 16%, rgba(2,110,215,0.9864320728291317) 52%, rgba(19,222,11,1) 84%);
+    background: -moz-linear-gradient(90deg, rgba(170,233,32,1) 16%, rgba(2,110,215,0.9864320728291317) 52%, rgba(19,222,11,1) 84%);
+    background: linear-gradient(90deg, rgba(170,233,32,1) 16%, rgba(2,110,215,0.9864320728291317) 52%, rgba(19,222,11,1) 84%);
+    transition: all ease-in 200ms;
 }
 
 .text-center {
